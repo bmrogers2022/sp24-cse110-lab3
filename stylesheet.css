@@ -69,7 +69,7 @@ ol {
 
 ul {
     height:auto;
-    color:color-mix(in rgb, rgb(255, 0, 255), rgb(72, 224, 41));
+    color: color-mix(in lch, rgb(247, 50, 5), rgb(31, 19, 254));
 }
 
 form {
@@ -114,7 +114,7 @@ nav a {
 }
 
 main > section {
-    background: #ffffff;
+    background: #d8f1f8;
 }
 
 h1 ~ p {
