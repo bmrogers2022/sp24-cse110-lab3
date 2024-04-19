@@ -33,7 +33,7 @@ div {
 
 header, section {
     position:relative;
-    min-width: none;
+    min-width: 0px;
     margin: 1px 1cm 1ch 1%;
     color:rgb(209, 154, 82);
     border-bottom:#f70d0d;
@@ -62,14 +62,14 @@ ol {
     padding-bottom: 5%;
     padding-left: 10%;
     padding-right: 5%;
-    color:color(colorspace 000 999 999);
+    color:color(display-p3 0 .5 1);
     flex-wrap: wrap-reverse;
     justify-content:space-around;
 }
 
 ul {
     height:auto;
-    color:color-mix(in lch, rgb(255, 0, 255), rgb(72, 224, 41));
+    color:color-mix(in rgb, rgb(255, 0, 255), rgb(72, 224, 41));
 }
 
 form {
