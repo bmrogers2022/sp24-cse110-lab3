@@ -1,0 +1,126 @@
+/* First CSS Comment */
+
+* {background-color: rgb(253, 229, 232);}
+* {text-align: left; text-decoration:overline;}
+* {font-size: 1.8vw; font-family: "Lucida Console", "Courier New", monospace;}
+
+body {
+    position:relative;
+    border: solid whitesmoke;
+    border-style:double;
+    border-width:5ch;
+    color: #fff; /*fallback*/
+    color:green;
+}
+
+div {
+    position:relative;
+    display:inline-block;
+    margin:auto;
+    border-style:dotted;
+    border-color:pink;
+    border-radius: 100px;
+    color:hsl(24, 82%, 42%);
+    background-color:aquamarine;
+}
+
+@media screen and (min-width: 500px){
+    div {
+        background-color: black;
+    }
+}
+
+
+header, section {
+    position:relative;
+    min-width: none;
+    margin: 1px 1cm 1ch 1%;
+    color:rgb(209, 154, 82);
+    border-bottom:#f70d0d;
+    border-radius: 1ch;
+}
+
+footer {
+    position:relative;
+    max-width: max-content;
+    display:block;
+    padding:0% 10% 0% 1%;
+    margin-top:9px;
+    margin-bottom:9px;
+    margin-right:5cm;
+    margin-left:2cm;
+    color: #f70d0d;
+    border:solid 1ch orange;
+    background-color: aliceblue;
+}
+
+ol {
+    display: flex;
+    position:sticky;
+    width: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 5%;
+    color:color(colorspace 000 999 999);
+    flex-wrap: wrap-reverse;
+    justify-content:space-around;
+}
+
+ul {
+    height:auto;
+    color:color-mix(in lch, rgb(255, 0, 255), rgb(72, 224, 41));
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1px 1px;
+    grid-template-rows: 1fr 1px 1px 1px;
+}
+
+button:hover {
+    color:rgb(72, 224, 41);
+}
+
+button:active {
+    background-color: aqua;
+}
+
+.note {
+    color:black;
+}
+
+input[type="checkbox"] {
+    margin:auto;
+}
+
+section:has(h1) {
+    box-shadow: 0 1vw 1vw rgba(240, 17, 17, 0.1);
+}
+
+#business {
+    background-color: violet;
+    color:black;
+}
+
+.videosize {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+}
+
+nav a {
+    color:blue;
+}
+
+main > section {
+    background: #ffffff;
+}
+
+h1 ~ p {
+    border-top: 1px solid #dee2e6;
+}
+
+hr + section {
+    margin-top: 10px;
+}
