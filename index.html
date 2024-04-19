@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="stylesheet.css">
     <meta charset="UTF-8">
     <title>Brandon's Meeting Minutes Brainstorm</title>
     <link rel="icon" type="image/x-icon" href="/media/favicon.ico">
@@ -34,7 +35,7 @@
         </section>
         <hr>
         <section>
-            <h1>Unfinished Business</h1>
+            <h1 id="business">Unfinished Business</h1>
             <ol>
                 <li>Nothing, first meeting :)</li>
             </ol>
@@ -63,9 +64,9 @@
         </section>
         <section>
             <h1>Full recording of meeting</h1>
-            <video src="media/meeting.mp4">Exciting full video</video>
+            <video class="videosize" autoplay loop muted><source src="media/meeting.mp4" type="video/mp4" id="video">Exciting full video</video>
             <br>
-            <audio src="media/meeting.mp3">Exciting full audio</audio>
+            <audio autoplay loop><source src="media/meeting.mp3">Exciting full audio</audio>
         </section>
     </main>
     <!-- Brainstorming -->
@@ -98,7 +99,7 @@
     </form>
     <details>
       <summary>
-      And in the end, nothing got done.
+      <span class="note">And in the end, nothing got done.</span>
       </summary>
       <p>good meeting</p>
     </details>
